@@ -19,7 +19,6 @@ btn.addEventListener('click', () =>{
     }
 });
 
-
 red.addEventListener(('click'), () =>{
     if(isOnTrafficLights == true){
         if(isOnRed == true){
@@ -70,7 +69,6 @@ green.addEventListener(('click'), () =>{
         }
     }
 });
-
 
 function checkLights(){
     if(isOnRed == true){
